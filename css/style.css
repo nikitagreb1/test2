@@ -1,0 +1,296 @@
+@font-face {
+   font-family: "Neutral Face";
+   src: url("../fonts/NeutralFaceRegular.woff2") format("woff2"), url("../fonts/NeutralFaceRegular.woff") format("woff");
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "Neutral Face";
+   src: url("../fonts/NeutralFaceBold.woff2") format("woff2"), url("../fonts/NeutralFaceBold.woff") format("woff");
+   font-weight: 700;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "Boncegro FF 4F";
+   src: url("../fonts/BoncegroFF4F.woff2") format("woff2"), url("../fonts/BoncegroFF4F.woff") format("woff");
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+
+* {
+   font-family: "Oswald", sans-serif;
+   font-size: 18px;
+   font-weight: 300;
+}
+
+.wrapper {
+   min-height: 100%;
+   overflow: hidden;
+}
+
+h1 {
+   font-size: 50px;
+   font-family: "Neutral Face", sans-serif;
+   font-weight: 700;
+   text-align: center;
+   margin-top: 30px;
+   margin-bottom: 50px;
+   color: rgba(25, 221, 255, 0.411);
+   text-shadow: 9px 9px 23px rgba(56, 55, 55, 0.432);
+   text-decoration: underline;
+   letter-spacing: 15px;
+   word-spacing: 20px;
+   font-style: oblique;
+}
+
+.decor {
+   width: 700px;
+   height: 700px;
+   overflow: hidden;
+   border-radius: 50%;
+   margin: 0 auto;
+   margin-bottom: 30px;
+   box-shadow: 6px 5px 15px 15px rgba(0, 0, 0, 0.658);
+}
+.main-img {
+}
+
+.original-author {
+   max-width: 617px;
+   margin: 0 auto 50px;
+   border: 17px solid rgb(168, 233, 138);
+   box-shadow: 6px 5px 15px 3px rgba(0, 0, 0, 0.267);
+   opacity: 0.7;
+}
+
+.original-author-row {
+   max-width: 639px;
+   margin: 0 auto;
+   padding: 15px;
+}
+
+.original-author-img {
+   padding: 0 10px;
+}
+
+.original-author-img.pln {
+   padding-left: 0;
+}
+
+.original-author span {
+   color: rgba(170, 73, 73, 0.582);
+   text-shadow: 5px 6px 20px rgb(37, 192, 97);
+   text-transform: uppercase;
+   font-style: oblique;
+}
+
+.original-author p {
+   display: inline-block;
+   color: rgba(34, 156, 255, 0.733);
+   text-shadow: 5px 6px 20px rgb(97, 72, 72);
+   opacity: 0.4;
+}
+
+.main-descr {
+   max-width: 660px;
+   margin: 0 auto 50px;
+   border: 15px dotted rgba(145, 81, 218, 0.521);
+   padding: 45px;
+   box-shadow: inset 6px 5px 15px 3px rgba(180, 44, 44, 0.267), 6px 5px 15px 3px rgba(43, 172, 204, 0.267);
+}
+
+.main-descr-text {
+   text-align: center;
+   font-size: 30px;
+   color: rgba(96, 68, 175, 0.473);
+   text-shadow: 5px 6px 13px rgba(41, 233, 191, 0.438);
+   text-decoration: line-through;
+   letter-spacing: 5px;
+   word-spacing: 7px;
+   font-style: oblique;
+}
+
+.main-text-block {
+   max-width: 1200px;
+   min-width: 600px;
+   margin: 0 auto;
+   opacity: 0.7;
+}
+
+.main-text-pop {
+   line-height: 1.7;
+   max-width: 450px;
+   text-align: justify;
+   margin-bottom: 50px;
+   border: 8px double green;
+   padding: 15px;
+   font-family: "Neutral Face", sans-serif;
+   font-weight: 700;
+   border-radius: 35px;
+   text-indent: 40px;
+   color: rgb(221, 32, 164);
+   text-shadow: 12px 9px 13px rgba(172, 46, 211, 0.438);
+   box-shadow: inset 10px 5px 15px 3px rgba(223, 20, 20, 0.623), 15px 5px 15px 3px rgba(0, 247, 255, 0.589);
+   text-decoration: overline;
+   letter-spacing: 7px;
+   word-spacing: 6px;
+   opacity: 0.3;
+}
+
+.main-text-work {
+   line-height: 1.7;
+   max-width: 450px;
+   text-align: justify;
+   margin: 0 auto 50px;
+   border: 6px dashed rgb(15, 167, 228);
+   padding: 15px;
+   font-family: "Boncegro FF 4F", sans-serif;
+   border-radius: 15%;
+   text-indent: 40px;
+   color: rgb(61, 202, 212);
+   text-shadow: 9px 6px 13px rgba(31, 66, 59, 0.685);
+   box-shadow: inset 10px 5px 15px 3px rgba(223, 20, 20, 0.623), 15px 5px 15px 3px rgba(0, 247, 255, 0.589);
+   text-decoration: underline;
+   letter-spacing: 3px;
+   word-spacing: 4px;
+   opacity: 0.5;
+   font-style: oblique;
+}
+
+.main-text-new {
+   line-height: 1.7;
+   max-width: 450px;
+   text-align: justify;
+   margin: 0 0 50px auto;
+   border: 6px dotted rgb(228, 68, 19);
+   padding: 15px;
+   font-family: "Neutral Face", sans-serif;
+   font-weight: 400;
+   border-radius: 50px;
+   text-indent: 40px;
+   color: rgb(36, 235, 135);
+   text-shadow: 17px 6px 13px rgba(76, 41, 233, 0.438);
+   box-shadow: inset 10px 5px 15px 3px rgba(223, 20, 20, 0.623), 15px 5px 15px 3px rgba(0, 247, 255, 0.589);
+   text-decoration: overline;
+   letter-spacing: 2px;
+   word-spacing: 2px;
+   opacity: 0.7;
+}
+
+.overflow-block {
+   max-width: 1200px;
+   margin: 0 auto 50px;
+}
+
+.overflow-watch-img {
+   max-width: 500px;
+   max-height: 600px;
+   overflow: auto;
+   margin: 0 0 0 auto;
+   border: 20px solid rgba(138, 6, 190, 0.253);
+   box-shadow: 7px 5px 13px 9px rgba(36, 15, 228, 0.589);
+   border-radius: 20px;
+}
+
+.overflow-watch-img img {
+   display: block;
+   margin: 0 auto;
+}
+
+.main-watch-info {
+   max-width: 100%;
+   margin: 0 auto;
+}
+
+.main-watch-info div {
+   max-width: 600px;
+}
+
+div.main-watch-wrapper {
+   max-width: 1200px;
+   margin: 0 auto 50px;
+}
+
+.main-watch-info .left {
+   border: 5px dotted rgb(63, 226, 131);
+   padding: 30px;
+   border-radius: 25%;
+   margin-bottom: 50px;
+   box-shadow: 13px 5px 17px 14px rgba(56, 184, 189, 0.589);
+   text-shadow: 12px 9px 20px rgb(60, 255, 0);
+   text-decoration: line-through;
+   letter-spacing: 2px;
+   word-spacing: 1px;
+   text-transform: capitalize;
+}
+
+.main-watch-info .right {
+   margin: 0 0 0 auto;
+   border: 5px dotted pink;
+   padding: 20px;
+   border-radius: 65px;
+   box-shadow: 10px 5px 17px 9px rgba(109, 75, 112, 0.589);
+   text-shadow: 6px 9px 14px rgb(184, 87, 87);
+   text-decoration: underline;
+   letter-spacing: 4px;
+   word-spacing: 3px;
+   text-transform: uppercase;
+}
+
+.main-watch-info p {
+   line-height: 1.8;
+   text-align: justify;
+   text-indent: 50px;
+   color: rgb(43, 199, 219);
+}
+
+.main-watch-img-wrapper {
+   max-width: 1200px;
+   margin: 0 auto;
+}
+
+.main-watch-img-block {
+   max-width: 500px;
+   max-height: 600px;
+   overflow: auto;
+   border: 20px solid rgba(138, 6, 190, 0.253);
+   margin-bottom: 50px;
+   box-shadow: 7px 5px 17px 9px rgba(210, 15, 228, 0.589), 5px 4px 4px 4px red;
+   border-radius: 7%;
+}
+
+.main-watch-img-block img {
+   display: block;
+   margin: 0 auto;
+}
+
+.v-h {
+   visibility: hidden;
+}
+
+.main-watch-info-con {
+   max-width: 800px;
+   margin: 0 auto;
+   border: 20px solid rgb(125, 166, 179);
+   padding: 40px;
+   box-shadow: inset 7px 5px 17px 9px rgba(15, 228, 43, 0.589);
+   opacity: 0.5;
+   border-radius: 20px;
+}
+
+.main-watch-info-con p {
+   text-align: center;
+   line-height: 1.8;
+   color: rgb(189, 33, 236);
+   text-decoration: underline;
+   letter-spacing: 7px;
+   word-spacing: 6px;
+   font-size: 24px;
+   opacity: 1;
+   text-transform: lowercase;
+}

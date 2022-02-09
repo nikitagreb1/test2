@@ -1,0 +1,87 @@
+* {
+   font-size: 16px;
+   font-family: "Lato", sans-serif;
+   font-weight: 400px;
+}
+
+.wrapper {
+   min-height: 100%;
+   overflow: hidden;
+}
+
+h1 {
+   font-weight: 900;
+   font-size: 46px;
+   line-height: 1.3;
+   max-width: 810px;
+   margin: 0 auto;
+}
+
+img {
+   display: block;
+   width: 810px;
+   height: auto;
+   margin: 0 auto;
+}
+
+.vulputate,
+.lorem {
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 1.5;
+   color: #1e212c;
+   max-width: 810px;
+}
+
+.facilisi,
+.amet,
+.mauris,
+li,
+.enim {
+   line-height: 1.6;
+   color: #424551;
+   max-width: 810px;
+}
+
+.main {
+   margin-top: 92px;
+}
+
+.vulputate {
+   margin: 60px auto 0;
+}
+
+.facilisi {
+   margin: 24px auto 0;
+}
+
+.amet {
+   margin: 37px auto 0;
+}
+
+.lorem {
+   margin: 48px auto;
+   padding-left: 58px;
+}
+
+.mauris {
+   margin: 0 auto;
+}
+
+ul {
+   margin: 24px auto 0;
+   max-width: 600px;
+}
+
+ul > li {
+   padding: 8px 0 8px 32px;
+   max-width: 600px;
+}
+
+.p-n {
+   padding-bottom: 0;
+}
+
+.enim {
+   margin: 28px auto 0;
+}
